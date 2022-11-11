@@ -1,0 +1,9 @@
+@media only screen and (max-width: 800px) {
+    svg_line>svg {
+        display: none;
+    }
+
+    .line_Width {
+        width: 100%;
+    }
+}

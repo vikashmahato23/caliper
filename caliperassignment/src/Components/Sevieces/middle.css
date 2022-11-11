@@ -1,0 +1,66 @@
+.middle{
+    width: 100%;
+    height: 50px;
+    border: 1px solid red;
+}
+
+h2>span{
+    width: 50%;
+    font-size: 24px;
+}
+.piccon{
+  margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picdetail{
+    width: 50%;
+    display: flex;
+}
+.piccon > h2{
+    font-size: 50px;
+}
+
+.piccon h2{
+   
+    display: flex;
+    margin-left: 50px;
+   
+   align-items: center;
+}
+.piccon h2>span{
+    font-size: 50px;
+}
+@media screen and (max-width: 648px) {
+
+.picdetail{
+    flex-direction: column;
+}
+.picdetail img{
+    width: auto;
+}
+.piccon h2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media screen and (max-width: 1324px) {
+
+.picdetail{
+    flex-direction: column;
+}
+.picdetail img{
+    width: 500px;
+}
+.piccon h2 {
+
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 50px; */
+
+    align-items: center;
+}
+}

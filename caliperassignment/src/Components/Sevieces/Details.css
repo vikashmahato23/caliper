@@ -1,0 +1,38 @@
+.detailscon{
+    width: 100%;
+    
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.lastcon{
+    width: 50%;
+  
+    /* border: 1px solid red; */
+ 
+
+}
+.lastcon>h2{
+    /* border: 1px solid red; */
+    color: rgb(74, 74, 74);
+    font-size: 40px;
+}
+.lastcon>p{
+    /* border: 1px solid red; */
+    color: rgb(74, 74, 74);
+    font-size: 20px;
+    font-weight: 400;
+}
+.lastcon >h3{
+    font-size: 20px;
+    color: rgb(74, 74, 74);
+}
+.lastcon>ul>li{
+    font-size: 17px;
+    font-weight: 400;
+        color: rgb(74, 74, 74);
+    list-style-type: disc;
+    text-align: start;
+}
