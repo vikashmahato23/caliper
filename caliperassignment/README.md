@@ -39,5 +39,5 @@ Here your can sell any product or contact anyone to farmsetup
 <li>mongoDB</li>
 </ul>
 
-//For b2c i Will didn't make chackout page
+//For b2c i didn't make chackout page
 
