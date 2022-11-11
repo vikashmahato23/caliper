@@ -1,0 +1,11 @@
+#product{
+    /* border: 1px solid red; */
+    width: 100%;
+   display: grid;
+   /* height: 90px; */
+   grid-template-columns: 70% 30%;
+}
+#productCard{
+    display: flex;
+    flex-wrap: wrap;
+}

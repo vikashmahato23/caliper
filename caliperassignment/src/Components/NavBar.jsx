@@ -19,30 +19,27 @@ const NavBar = () => {
     }
   return (
     <>
-
       <div className="topnav" id="myTopnav">
-        <a  className="active" onClick={()=> navigate("/")}>
+        <a className="active" onClick={() => navigate("/")}>
           Home
         </a>
-       
-        <a href="#contact">Sell</a>
+
+        <a  onClick={() => navigate("/products")}>
+          Sell
+        </a>
         <div className="dropdown">
           <button className="dropbtn">
             Services
             <i className="fa fa-caret-down"></i>
           </button>
           <div className="dropdown-content">
-            <a  onClick={()=>navigate("/services")}>hydroponic farm Setup</a>
+            <a onClick={() => navigate("/services")}>hydroponic farm Setup</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
           </div>
         </div>
         <a href="#about">About</a>
-        <a
-        onClick={myFunction}
-        >
-        
-        </a>
+        <a onClick={myFunction}></a>
       </div>
     </>
   );
